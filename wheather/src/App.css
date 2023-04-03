@@ -1,0 +1,122 @@
+.App {
+  box-sizing: border-box;
+  display: table;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.dropdown {
+  margin-top: 2rem;
+  width: 600px;
+  height: 70px;
+  background-color: #6381b3;
+}
+
+.dropdownBox {
+  margin: 1rem;
+  width: 10rem;
+  height: 2rem;
+  border: 2px solid #6381b3;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 1px 1px #ccc;
+}
+
+.container {
+  width: 100px;
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.wheatherDate {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 1rem;
+}
+
+.wheatherTemplate:first-child{
+  border: 2px solid #E5E7EB;
+  border-radius: 5px;
+  background-color: #F6FAFD;
+  
+}
+
+
+.wheatherStatus {
+  width: 100px;
+  height: 50px;
+  background-color: #6381b3;
+  object-fit: cover;
+}
+
+.light {
+  color: #646464;
+}
+
+.dark {
+  color: black;
+  font-weight: bold;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .App{
+    margin: 0;
+  }
+
+  .dropdown{
+    width: 360px;
+  }
+
+  .dropdownBox{
+    font-size: 1rem;
+  }
+
+  .container{
+    width: 350px;
+  }
+
+  .wheatherDate {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+  }
+
+  .wheatherTemplate:first-child{
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    background-color: #F6FAFD;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .App{
+    margin: 0;
+    margin-left: 1rem;
+  }
+  
+  .dropdown{
+    width: 700px;
+  }
+  .dropdownBox{
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+  .container{
+    font-size: 1.2rem;
+  }
+
+  .wheatherTemplate:first-child{
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    background-color: #F6FAFD;
+  }
+}

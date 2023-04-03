@@ -1,3 +1,7 @@
+# FMSS-Task3
+- Context oluşturup hava durumu API çekip bir hava durumu tahmini componenti oluşturduk.
+- Bunu oluştururken axios ve context kullandık.
+### ![Preview](./preview.PNG "GitHub")
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
